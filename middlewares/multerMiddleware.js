@@ -7,7 +7,7 @@ const checkFileType = (file,cb)=>{
     const extname = (path.extname(file.originalname).toLowerCase()) === '.xlsx'?true:false;
     const mimetype = file.mimetype;
     console.log(file);
-    if(extname && mimetype === filetypes){
+    if(mimetype === filetypes){
         return cb(null, true)
     }else{
         cb(new Error(`Only .xlsx file can be uploaded`));
