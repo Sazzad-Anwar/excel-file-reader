@@ -3,7 +3,7 @@
 <p align="center">
   <h2 align="center"><a href="https://github.com/Sazzad-Anwar/Template">Excel-file Reader</a></h2>
 
-### You can read any excel file using this app
+### You can read any excel file using this app (Your device needs to be installed nodejs)
 
 #### How install and run
 
