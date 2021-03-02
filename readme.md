@@ -7,7 +7,7 @@
 
 #### How install and run
 
-##### Clone the repository first
+#### Clone the repository first
 
    ```sh
    git clone https://github.com/Sazzad-Anwar/excel-file-reader.git
