@@ -9,6 +9,7 @@ const htmlDoc = require('html-docx-js');
 const home = asyncHandler(async(req,res)=>{
     
     const file = req.file;
+    
     if(file){
         let directory = path.join(__dirname, '../public/uploads/', `upload.xlsx`);
         readXlsxFile(directory).then((rows) => {
