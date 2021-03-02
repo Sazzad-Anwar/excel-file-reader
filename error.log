@@ -1,0 +1,412 @@
+{
+  level: 'error',
+  message: 'Only /xlsx|xlsm/ file can be uploaded',
+  IP: '::1',
+  stack: 'Error: Only /xlsx|xlsm/ file can be uploaded\n' +
+    '    at checkFileType (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\middlewares\\multerMiddleware.js:13:12)\n' +
+    '    at fileFilter (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\middlewares\\multerMiddleware.js:31:7)\n' +
+    '    at wrappedFileFilter (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\multer\\index.js:44:7)\n' +
+    '    at Busboy.<anonymous> (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\multer\\lib\\make-middleware.js:114:7)\n' +
+    '    at Busboy.emit (node:events:378:20)\n' +
+    '    at Busboy.emit (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\busboy\\lib\\main.js:38:33)\n' +
+    '    at PartStream.<anonymous> (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\busboy\\lib\\types\\multipart.js:213:13)\n' +
+    '    at PartStream.emit (node:events:378:20)\n' +
+    '    at HeaderParser.<anonymous> (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\dicer\\lib\\Dicer.js:51:16)\n' +
+    '    at HeaderParser.emit (node:events:378:20)\n' +
+    '    at HeaderParser._finish (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\dicer\\lib\\HeaderParser.js:68:8)\n' +
+    '    at SBMH.<anonymous> (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\dicer\\lib\\HeaderParser.js:40:12)\n' +
+    '    at SBMH.emit (node:events:378:20)\n' +
+    '    at SBMH._sbmh_feed (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\streamsearch\\lib\\sbmh.js:159:14)\n' +
+    '    at SBMH.push (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\streamsearch\\lib\\sbmh.js:56:14)\n' +
+    '    at HeaderParser.push (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\dicer\\lib\\HeaderParser.js:46:19)',
+  error_occured: 'Tue, Mar 2, 2021, 01:37 AM',
+  timestamp: '2021-03-01T19:37:24.698Z'
+}
+{
+  level: 'error',
+  message: 'Only /xlsx|xlsm/ file can be uploaded',
+  IP: '::1',
+  stack: 'Error: Only /xlsx|xlsm/ file can be uploaded\n' +
+    '    at checkFileType (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\middlewares\\multerMiddleware.js:14:12)\n' +
+    '    at fileFilter (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\middlewares\\multerMiddleware.js:32:7)\n' +
+    '    at wrappedFileFilter (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\multer\\index.js:44:7)\n' +
+    '    at Busboy.<anonymous> (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\multer\\lib\\make-middleware.js:114:7)\n' +
+    '    at Busboy.emit (node:events:378:20)\n' +
+    '    at Busboy.emit (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\busboy\\lib\\main.js:38:33)\n' +
+    '    at PartStream.<anonymous> (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\busboy\\lib\\types\\multipart.js:213:13)\n' +
+    '    at PartStream.emit (node:events:378:20)\n' +
+    '    at HeaderParser.<anonymous> (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\dicer\\lib\\Dicer.js:51:16)\n' +
+    '    at HeaderParser.emit (node:events:378:20)\n' +
+    '    at HeaderParser._finish (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\dicer\\lib\\HeaderParser.js:68:8)\n' +
+    '    at SBMH.<anonymous> (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\dicer\\lib\\HeaderParser.js:40:12)\n' +
+    '    at SBMH.emit (node:events:378:20)\n' +
+    '    at SBMH._sbmh_feed (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\streamsearch\\lib\\sbmh.js:159:14)\n' +
+    '    at SBMH.push (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\streamsearch\\lib\\sbmh.js:56:14)\n' +
+    '    at HeaderParser.push (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\dicer\\lib\\HeaderParser.js:46:19)',
+  error_occured: 'Tue, Mar 2, 2021, 01:37 AM',
+  timestamp: '2021-03-01T19:37:46.779Z'
+}
+{
+  level: 'error',
+  message: "ENOENT: no such file or directory, open 'D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\public\\uploads\\1614628086149.xlsx'",
+  IP: '::1',
+  stack: "Error: ENOENT: no such file or directory, open 'D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\public\\uploads\\1614628086149.xlsx'",
+  error_occured: 'Tue, Mar 2, 2021, 01:48 AM',
+  timestamp: '2021-03-01T19:48:06.168Z'
+}
+{
+  level: 'error',
+  message: 'directory is not defined',
+  IP: '::1',
+  stack: 'ReferenceError: directory is not defined\n' +
+    '    at D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\controllers\\AppController.js:12:5\n' +
+    '    at asyncUtilWrap (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\express-async-handler\\index.js:3:20)\n' +
+    '    at Layer.handle [as handle_request] (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\express\\lib\\router\\route.js:137:13)\n' +
+    '    at Array.<anonymous> (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\multer\\lib\\make-middleware.js:53:37)\n' +
+    '    at listener (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\on-finished\\index.js:169:15)\n' +
+    '    at onFinish (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\on-finished\\index.js:100:5)\n' +
+    '    at callback (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\ee-first\\index.js:55:10)\n' +
+    '    at IncomingMessage.onevent (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\ee-first\\index.js:93:5)\n' +
+    '    at IncomingMessage.emit (node:events:390:22)\n' +
+    '    at endReadableNT (node:internal/streams/readable:1307:12)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:81:21)',
+  error_occured: 'Tue, Mar 2, 2021, 01:54 AM',
+  timestamp: '2021-03-01T19:54:31.739Z'
+}
+{
+  level: 'error',
+  message: "Cannot read property 'filename' of undefined",
+  IP: '::ffff:127.0.0.1',
+  stack: "TypeError: Cannot read property 'filename' of undefined\n" +
+    '    at D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\controllers\\AppController.js:11:72\n' +
+    '    at asyncUtilWrap (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\express-async-handler\\index.js:3:20)\n' +
+    '    at Layer.handle [as handle_request] (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\express\\lib\\router\\route.js:137:13)\n' +
+    '    at Route.dispatch (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\express\\lib\\router\\route.js:112:3)\n' +
+    '    at Layer.handle [as handle_request] (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\express\\lib\\router\\index.js:281:22\n' +
+    '    at Function.process_params (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\express\\lib\\router\\index.js:335:12)\n' +
+    '    at next (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\express\\lib\\router\\index.js:275:10)\n' +
+    '    at Function.handle (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\express\\lib\\router\\index.js:174:3)\n' +
+    '    at router (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\express\\lib\\router\\index.js:47:12)\n' +
+    '    at Layer.handle [as handle_request] (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at trim_prefix (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\express\\lib\\router\\index.js:317:13)\n' +
+    '    at D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\express\\lib\\router\\index.js:284:7\n' +
+    '    at Function.process_params (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\express\\lib\\router\\index.js:335:12)\n' +
+    '    at next (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\express\\lib\\router\\index.js:275:10)',
+  error_occured: 'Tue, Mar 2, 2021, 02:34 AM',
+  timestamp: '2021-03-01T20:34:52.955Z'
+}
+{
+  level: 'error',
+  message: 'Only application/vnd.openxmlformats-officedocument.spreadsheetml.sheet file can be uploaded',
+  IP: '::1',
+  stack: 'Error: Only application/vnd.openxmlformats-officedocument.spreadsheetml.sheet file can be uploaded\n' +
+    '    at checkFileType (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\middlewares\\multerMiddleware.js:13:12)\n' +
+    '    at fileFilter (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\middlewares\\multerMiddleware.js:31:7)\n' +
+    '    at wrappedFileFilter (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\multer\\index.js:44:7)\n' +
+    '    at Busboy.<anonymous> (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\multer\\lib\\make-middleware.js:114:7)\n' +
+    '    at Busboy.emit (node:events:378:20)\n' +
+    '    at Busboy.emit (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\busboy\\lib\\main.js:38:33)\n' +
+    '    at PartStream.<anonymous> (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\busboy\\lib\\types\\multipart.js:213:13)\n' +
+    '    at PartStream.emit (node:events:378:20)\n' +
+    '    at HeaderParser.<anonymous> (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\dicer\\lib\\Dicer.js:51:16)\n' +
+    '    at HeaderParser.emit (node:events:378:20)\n' +
+    '    at HeaderParser._finish (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\dicer\\lib\\HeaderParser.js:68:8)\n' +
+    '    at SBMH.<anonymous> (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\dicer\\lib\\HeaderParser.js:40:12)\n' +
+    '    at SBMH.emit (node:events:378:20)\n' +
+    '    at SBMH._sbmh_feed (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\streamsearch\\lib\\sbmh.js:159:14)\n' +
+    '    at SBMH.push (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\streamsearch\\lib\\sbmh.js:56:14)\n' +
+    '    at HeaderParser.push (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\dicer\\lib\\HeaderParser.js:46:19)',
+  error_occured: 'Tue, Mar 2, 2021, 02:40 AM',
+  timestamp: '2021-03-01T20:40:10.927Z'
+}
+{
+  level: 'error',
+  message: 'Only application/vnd.openxmlformats-officedocument.spreadsheetml.sheet file can be uploaded',
+  IP: '::ffff:127.0.0.1',
+  stack: 'Error: Only application/vnd.openxmlformats-officedocument.spreadsheetml.sheet file can be uploaded\n' +
+    '    at checkFileType (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\middlewares\\multerMiddleware.js:13:12)\n' +
+    '    at fileFilter (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\middlewares\\multerMiddleware.js:31:7)\n' +
+    '    at wrappedFileFilter (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\multer\\index.js:44:7)\n' +
+    '    at Busboy.<anonymous> (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\multer\\lib\\make-middleware.js:114:7)\n' +
+    '    at Busboy.emit (node:events:378:20)\n' +
+    '    at Busboy.emit (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\busboy\\lib\\main.js:38:33)\n' +
+    '    at PartStream.<anonymous> (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\busboy\\lib\\types\\multipart.js:213:13)\n' +
+    '    at PartStream.emit (node:events:378:20)\n' +
+    '    at HeaderParser.<anonymous> (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\dicer\\lib\\Dicer.js:51:16)\n' +
+    '    at HeaderParser.emit (node:events:378:20)\n' +
+    '    at HeaderParser._finish (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\dicer\\lib\\HeaderParser.js:68:8)\n' +
+    '    at SBMH.<anonymous> (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\dicer\\lib\\HeaderParser.js:40:12)\n' +
+    '    at SBMH.emit (node:events:378:20)\n' +
+    '    at SBMH._sbmh_feed (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\streamsearch\\lib\\sbmh.js:159:14)\n' +
+    '    at SBMH.push (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\streamsearch\\lib\\sbmh.js:56:14)\n' +
+    '    at HeaderParser.push (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\dicer\\lib\\HeaderParser.js:46:19)',
+  error_occured: 'Tue, Mar 2, 2021, 02:53 AM',
+  timestamp: '2021-03-01T20:53:37.140Z'
+}
+{
+  level: 'error',
+  message: 'Only application/vnd.openxmlformats-officedocument.spreadsheetml.sheet file can be uploaded',
+  IP: '::ffff:127.0.0.1',
+  stack: 'Error: Only application/vnd.openxmlformats-officedocument.spreadsheetml.sheet file can be uploaded\n' +
+    '    at checkFileType (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\middlewares\\multerMiddleware.js:13:12)\n' +
+    '    at fileFilter (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\middlewares\\multerMiddleware.js:31:7)\n' +
+    '    at wrappedFileFilter (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\multer\\index.js:44:7)\n' +
+    '    at Busboy.<anonymous> (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\multer\\lib\\make-middleware.js:114:7)\n' +
+    '    at Busboy.emit (node:events:378:20)\n' +
+    '    at Busboy.emit (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\busboy\\lib\\main.js:38:33)\n' +
+    '    at PartStream.<anonymous> (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\busboy\\lib\\types\\multipart.js:213:13)\n' +
+    '    at PartStream.emit (node:events:378:20)\n' +
+    '    at HeaderParser.<anonymous> (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\dicer\\lib\\Dicer.js:51:16)\n' +
+    '    at HeaderParser.emit (node:events:378:20)\n' +
+    '    at HeaderParser._finish (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\dicer\\lib\\HeaderParser.js:68:8)\n' +
+    '    at SBMH.<anonymous> (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\dicer\\lib\\HeaderParser.js:40:12)\n' +
+    '    at SBMH.emit (node:events:378:20)\n' +
+    '    at SBMH._sbmh_feed (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\streamsearch\\lib\\sbmh.js:159:14)\n' +
+    '    at SBMH.push (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\streamsearch\\lib\\sbmh.js:56:14)\n' +
+    '    at HeaderParser.push (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\dicer\\lib\\HeaderParser.js:46:19)',
+  error_occured: 'Tue, Mar 2, 2021, 02:54 AM',
+  timestamp: '2021-03-01T20:54:10.958Z'
+}
+{
+  level: 'error',
+  message: 'Only application/vnd.openxmlformats-officedocument.spreadsheetml.sheet file can be uploaded',
+  IP: '::ffff:127.0.0.1',
+  stack: 'Error: Only application/vnd.openxmlformats-officedocument.spreadsheetml.sheet file can be uploaded\n' +
+    '    at checkFileType (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\middlewares\\multerMiddleware.js:13:12)\n' +
+    '    at fileFilter (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\middlewares\\multerMiddleware.js:31:7)\n' +
+    '    at wrappedFileFilter (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\multer\\index.js:44:7)\n' +
+    '    at Busboy.<anonymous> (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\multer\\lib\\make-middleware.js:114:7)\n' +
+    '    at Busboy.emit (node:events:378:20)\n' +
+    '    at Busboy.emit (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\busboy\\lib\\main.js:38:33)\n' +
+    '    at PartStream.<anonymous> (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\busboy\\lib\\types\\multipart.js:213:13)\n' +
+    '    at PartStream.emit (node:events:378:20)\n' +
+    '    at HeaderParser.<anonymous> (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\dicer\\lib\\Dicer.js:51:16)\n' +
+    '    at HeaderParser.emit (node:events:378:20)\n' +
+    '    at HeaderParser._finish (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\dicer\\lib\\HeaderParser.js:68:8)\n' +
+    '    at SBMH.<anonymous> (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\dicer\\lib\\HeaderParser.js:40:12)\n' +
+    '    at SBMH.emit (node:events:378:20)\n' +
+    '    at SBMH._sbmh_feed (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\streamsearch\\lib\\sbmh.js:159:14)\n' +
+    '    at SBMH.push (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\streamsearch\\lib\\sbmh.js:56:14)\n' +
+    '    at HeaderParser.push (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\dicer\\lib\\HeaderParser.js:46:19)',
+  error_occured: 'Tue, Mar 2, 2021, 02:54 AM',
+  timestamp: '2021-03-01T20:54:24.668Z'
+}
+{
+  level: 'error',
+  message: 'Only application/vnd.openxmlformats-officedocument.spreadsheetml.sheet file can be uploaded',
+  IP: '::ffff:127.0.0.1',
+  stack: 'Error: Only application/vnd.openxmlformats-officedocument.spreadsheetml.sheet file can be uploaded\n' +
+    '    at checkFileType (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\middlewares\\multerMiddleware.js:13:12)\n' +
+    '    at fileFilter (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\middlewares\\multerMiddleware.js:31:7)\n' +
+    '    at wrappedFileFilter (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\multer\\index.js:44:7)\n' +
+    '    at Busboy.<anonymous> (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\multer\\lib\\make-middleware.js:114:7)\n' +
+    '    at Busboy.emit (node:events:378:20)\n' +
+    '    at Busboy.emit (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\busboy\\lib\\main.js:38:33)\n' +
+    '    at PartStream.<anonymous> (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\busboy\\lib\\types\\multipart.js:213:13)\n' +
+    '    at PartStream.emit (node:events:378:20)\n' +
+    '    at HeaderParser.<anonymous> (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\dicer\\lib\\Dicer.js:51:16)\n' +
+    '    at HeaderParser.emit (node:events:378:20)\n' +
+    '    at HeaderParser._finish (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\dicer\\lib\\HeaderParser.js:68:8)\n' +
+    '    at SBMH.<anonymous> (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\dicer\\lib\\HeaderParser.js:40:12)\n' +
+    '    at SBMH.emit (node:events:378:20)\n' +
+    '    at SBMH._sbmh_feed (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\streamsearch\\lib\\sbmh.js:159:14)\n' +
+    '    at SBMH.push (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\streamsearch\\lib\\sbmh.js:56:14)\n' +
+    '    at HeaderParser.push (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\dicer\\lib\\HeaderParser.js:46:19)',
+  error_occured: 'Tue, Mar 2, 2021, 02:55 AM',
+  timestamp: '2021-03-01T20:55:02.356Z'
+}
+{
+  level: 'error',
+  message: 'Only application/vnd.openxmlformats-officedocument.spreadsheetml.sheet file can be uploaded',
+  IP: '::ffff:127.0.0.1',
+  stack: 'Error: Only application/vnd.openxmlformats-officedocument.spreadsheetml.sheet file can be uploaded\n' +
+    '    at checkFileType (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\middlewares\\multerMiddleware.js:13:12)\n' +
+    '    at fileFilter (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\middlewares\\multerMiddleware.js:31:7)\n' +
+    '    at wrappedFileFilter (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\multer\\index.js:44:7)\n' +
+    '    at Busboy.<anonymous> (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\multer\\lib\\make-middleware.js:114:7)\n' +
+    '    at Busboy.emit (node:events:378:20)\n' +
+    '    at Busboy.emit (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\busboy\\lib\\main.js:38:33)\n' +
+    '    at PartStream.<anonymous> (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\busboy\\lib\\types\\multipart.js:213:13)\n' +
+    '    at PartStream.emit (node:events:378:20)\n' +
+    '    at HeaderParser.<anonymous> (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\dicer\\lib\\Dicer.js:51:16)\n' +
+    '    at HeaderParser.emit (node:events:378:20)\n' +
+    '    at HeaderParser._finish (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\dicer\\lib\\HeaderParser.js:68:8)\n' +
+    '    at SBMH.<anonymous> (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\dicer\\lib\\HeaderParser.js:40:12)\n' +
+    '    at SBMH.emit (node:events:378:20)\n' +
+    '    at SBMH._sbmh_feed (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\streamsearch\\lib\\sbmh.js:159:14)\n' +
+    '    at SBMH.push (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\streamsearch\\lib\\sbmh.js:56:14)\n' +
+    '    at HeaderParser.push (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\dicer\\lib\\HeaderParser.js:46:19)',
+  error_occured: 'Tue, Mar 2, 2021, 02:56 AM',
+  timestamp: '2021-03-01T20:56:11.172Z'
+}
+{
+  level: 'error',
+  message: 'Only application/vnd.openxmlformats-officedocument.spreadsheetml.sheet file can be uploaded',
+  IP: '::ffff:127.0.0.1',
+  stack: 'Error: Only application/vnd.openxmlformats-officedocument.spreadsheetml.sheet file can be uploaded\n' +
+    '    at checkFileType (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\middlewares\\multerMiddleware.js:13:12)\n' +
+    '    at fileFilter (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\middlewares\\multerMiddleware.js:31:7)\n' +
+    '    at wrappedFileFilter (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\multer\\index.js:44:7)\n' +
+    '    at Busboy.<anonymous> (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\multer\\lib\\make-middleware.js:114:7)\n' +
+    '    at Busboy.emit (node:events:378:20)\n' +
+    '    at Busboy.emit (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\busboy\\lib\\main.js:38:33)\n' +
+    '    at PartStream.<anonymous> (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\busboy\\lib\\types\\multipart.js:213:13)\n' +
+    '    at PartStream.emit (node:events:378:20)\n' +
+    '    at HeaderParser.<anonymous> (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\dicer\\lib\\Dicer.js:51:16)\n' +
+    '    at HeaderParser.emit (node:events:378:20)\n' +
+    '    at HeaderParser._finish (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\dicer\\lib\\HeaderParser.js:68:8)\n' +
+    '    at SBMH.<anonymous> (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\dicer\\lib\\HeaderParser.js:40:12)\n' +
+    '    at SBMH.emit (node:events:378:20)\n' +
+    '    at SBMH._sbmh_feed (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\streamsearch\\lib\\sbmh.js:159:14)\n' +
+    '    at SBMH.push (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\streamsearch\\lib\\sbmh.js:56:14)\n' +
+    '    at HeaderParser.push (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\dicer\\lib\\HeaderParser.js:46:19)',
+  error_occured: 'Tue, Mar 2, 2021, 02:56 AM',
+  timestamp: '2021-03-01T20:56:31.622Z'
+}
+{
+  level: 'error',
+  message: 'Only application/vnd.openxmlformats-officedocument.spreadsheetml.sheet file can be uploaded',
+  IP: '::ffff:127.0.0.1',
+  stack: 'Error: Only application/vnd.openxmlformats-officedocument.spreadsheetml.sheet file can be uploaded\n' +
+    '    at checkFileType (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\middlewares\\multerMiddleware.js:13:12)\n' +
+    '    at fileFilter (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\middlewares\\multerMiddleware.js:31:7)\n' +
+    '    at wrappedFileFilter (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\multer\\index.js:44:7)\n' +
+    '    at Busboy.<anonymous> (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\multer\\lib\\make-middleware.js:114:7)\n' +
+    '    at Busboy.emit (node:events:378:20)\n' +
+    '    at Busboy.emit (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\busboy\\lib\\main.js:38:33)\n' +
+    '    at PartStream.<anonymous> (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\busboy\\lib\\types\\multipart.js:213:13)\n' +
+    '    at PartStream.emit (node:events:378:20)\n' +
+    '    at HeaderParser.<anonymous> (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\dicer\\lib\\Dicer.js:51:16)\n' +
+    '    at HeaderParser.emit (node:events:378:20)\n' +
+    '    at HeaderParser._finish (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\dicer\\lib\\HeaderParser.js:68:8)\n' +
+    '    at SBMH.<anonymous> (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\dicer\\lib\\HeaderParser.js:40:12)\n' +
+    '    at SBMH.emit (node:events:378:20)\n' +
+    '    at SBMH._sbmh_feed (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\streamsearch\\lib\\sbmh.js:159:14)\n' +
+    '    at SBMH.push (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\streamsearch\\lib\\sbmh.js:56:14)\n' +
+    '    at HeaderParser.push (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\dicer\\lib\\HeaderParser.js:46:19)',
+  error_occured: 'Tue, Mar 2, 2021, 02:56 AM',
+  timestamp: '2021-03-01T20:56:52.505Z'
+}
+{
+  level: 'error',
+  message: 'Only .xlsx file can be uploaded',
+  IP: '::ffff:127.0.0.1',
+  stack: 'Error: Only .xlsx file can be uploaded\n' +
+    '    at checkFileType (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\middlewares\\multerMiddleware.js:13:12)\n' +
+    '    at fileFilter (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\middlewares\\multerMiddleware.js:31:7)\n' +
+    '    at wrappedFileFilter (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\multer\\index.js:44:7)\n' +
+    '    at Busboy.<anonymous> (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\multer\\lib\\make-middleware.js:114:7)\n' +
+    '    at Busboy.emit (node:events:378:20)\n' +
+    '    at Busboy.emit (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\busboy\\lib\\main.js:38:33)\n' +
+    '    at PartStream.<anonymous> (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\busboy\\lib\\types\\multipart.js:213:13)\n' +
+    '    at PartStream.emit (node:events:378:20)\n' +
+    '    at HeaderParser.<anonymous> (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\dicer\\lib\\Dicer.js:51:16)\n' +
+    '    at HeaderParser.emit (node:events:378:20)\n' +
+    '    at HeaderParser._finish (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\dicer\\lib\\HeaderParser.js:68:8)\n' +
+    '    at SBMH.<anonymous> (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\dicer\\lib\\HeaderParser.js:40:12)\n' +
+    '    at SBMH.emit (node:events:378:20)\n' +
+    '    at SBMH._sbmh_feed (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\streamsearch\\lib\\sbmh.js:159:14)\n' +
+    '    at SBMH.push (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\streamsearch\\lib\\sbmh.js:56:14)\n' +
+    '    at HeaderParser.push (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\dicer\\lib\\HeaderParser.js:46:19)',
+  error_occured: 'Tue, Mar 2, 2021, 02:57 AM',
+  timestamp: '2021-03-01T20:57:22.634Z'
+}
+{
+  level: 'error',
+  message: 'Only .xlsx file can be uploaded',
+  IP: '::ffff:127.0.0.1',
+  stack: 'Error: Only .xlsx file can be uploaded\n' +
+    '    at checkFileType (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\middlewares\\multerMiddleware.js:13:12)\n' +
+    '    at fileFilter (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\middlewares\\multerMiddleware.js:31:7)\n' +
+    '    at wrappedFileFilter (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\multer\\index.js:44:7)\n' +
+    '    at Busboy.<anonymous> (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\multer\\lib\\make-middleware.js:114:7)\n' +
+    '    at Busboy.emit (node:events:378:20)\n' +
+    '    at Busboy.emit (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\busboy\\lib\\main.js:38:33)\n' +
+    '    at PartStream.<anonymous> (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\busboy\\lib\\types\\multipart.js:213:13)\n' +
+    '    at PartStream.emit (node:events:378:20)\n' +
+    '    at HeaderParser.<anonymous> (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\dicer\\lib\\Dicer.js:51:16)\n' +
+    '    at HeaderParser.emit (node:events:378:20)\n' +
+    '    at HeaderParser._finish (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\dicer\\lib\\HeaderParser.js:68:8)\n' +
+    '    at SBMH.<anonymous> (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\dicer\\lib\\HeaderParser.js:40:12)\n' +
+    '    at SBMH.emit (node:events:378:20)\n' +
+    '    at SBMH._sbmh_feed (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\streamsearch\\lib\\sbmh.js:159:14)\n' +
+    '    at SBMH.push (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\streamsearch\\lib\\sbmh.js:56:14)\n' +
+    '    at HeaderParser.push (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\dicer\\lib\\HeaderParser.js:46:19)',
+  error_occured: 'Tue, Mar 2, 2021, 02:58 AM',
+  timestamp: '2021-03-01T20:58:33.709Z'
+}
+{
+  level: 'error',
+  message: 'Only .xlsx file can be uploaded',
+  IP: '::ffff:127.0.0.1',
+  stack: 'Error: Only .xlsx file can be uploaded\n' +
+    '    at checkFileType (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\middlewares\\multerMiddleware.js:13:12)\n' +
+    '    at fileFilter (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\middlewares\\multerMiddleware.js:31:7)\n' +
+    '    at wrappedFileFilter (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\multer\\index.js:44:7)\n' +
+    '    at Busboy.<anonymous> (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\multer\\lib\\make-middleware.js:114:7)\n' +
+    '    at Busboy.emit (node:events:378:20)\n' +
+    '    at Busboy.emit (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\busboy\\lib\\main.js:38:33)\n' +
+    '    at PartStream.<anonymous> (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\busboy\\lib\\types\\multipart.js:213:13)\n' +
+    '    at PartStream.emit (node:events:378:20)\n' +
+    '    at HeaderParser.<anonymous> (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\dicer\\lib\\Dicer.js:51:16)\n' +
+    '    at HeaderParser.emit (node:events:378:20)\n' +
+    '    at HeaderParser._finish (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\dicer\\lib\\HeaderParser.js:68:8)\n' +
+    '    at SBMH.<anonymous> (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\dicer\\lib\\HeaderParser.js:40:12)\n' +
+    '    at SBMH.emit (node:events:378:20)\n' +
+    '    at SBMH._sbmh_feed (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\streamsearch\\lib\\sbmh.js:159:14)\n' +
+    '    at SBMH.push (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\streamsearch\\lib\\sbmh.js:56:14)\n' +
+    '    at HeaderParser.push (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\dicer\\lib\\HeaderParser.js:46:19)',
+  error_occured: 'Tue, Mar 2, 2021, 03:00 AM',
+  timestamp: '2021-03-01T21:00:00.917Z'
+}
+{
+  level: 'error',
+  message: 'Only .xlsx file can be uploaded',
+  IP: '::ffff:127.0.0.1',
+  stack: 'Error: Only .xlsx file can be uploaded\n' +
+    '    at checkFileType (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\middlewares\\multerMiddleware.js:13:12)\n' +
+    '    at fileFilter (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\middlewares\\multerMiddleware.js:31:7)\n' +
+    '    at wrappedFileFilter (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\multer\\index.js:44:7)\n' +
+    '    at Busboy.<anonymous> (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\multer\\lib\\make-middleware.js:114:7)\n' +
+    '    at Busboy.emit (node:events:378:20)\n' +
+    '    at Busboy.emit (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\busboy\\lib\\main.js:38:33)\n' +
+    '    at PartStream.<anonymous> (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\busboy\\lib\\types\\multipart.js:213:13)\n' +
+    '    at PartStream.emit (node:events:378:20)\n' +
+    '    at HeaderParser.<anonymous> (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\dicer\\lib\\Dicer.js:51:16)\n' +
+    '    at HeaderParser.emit (node:events:378:20)\n' +
+    '    at HeaderParser._finish (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\dicer\\lib\\HeaderParser.js:68:8)\n' +
+    '    at SBMH.<anonymous> (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\dicer\\lib\\HeaderParser.js:40:12)\n' +
+    '    at SBMH.emit (node:events:378:20)\n' +
+    '    at SBMH._sbmh_feed (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\streamsearch\\lib\\sbmh.js:159:14)\n' +
+    '    at SBMH.push (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\streamsearch\\lib\\sbmh.js:56:14)\n' +
+    '    at HeaderParser.push (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\dicer\\lib\\HeaderParser.js:46:19)',
+  error_occured: 'Tue, Mar 2, 2021, 03:04 AM',
+  timestamp: '2021-03-01T21:04:33.827Z'
+}
+{
+  level: 'error',
+  message: 'Only .xlsx file can be uploaded',
+  IP: '::ffff:127.0.0.1',
+  stack: 'Error: Only .xlsx file can be uploaded\n' +
+    '    at checkFileType (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\middlewares\\multerMiddleware.js:13:12)\n' +
+    '    at fileFilter (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\middlewares\\multerMiddleware.js:31:7)\n' +
+    '    at wrappedFileFilter (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\multer\\index.js:44:7)\n' +
+    '    at Busboy.<anonymous> (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\multer\\lib\\make-middleware.js:114:7)\n' +
+    '    at Busboy.emit (node:events:378:20)\n' +
+    '    at Busboy.emit (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\busboy\\lib\\main.js:38:33)\n' +
+    '    at PartStream.<anonymous> (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\busboy\\lib\\types\\multipart.js:213:13)\n' +
+    '    at PartStream.emit (node:events:378:20)\n' +
+    '    at HeaderParser.<anonymous> (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\dicer\\lib\\Dicer.js:51:16)\n' +
+    '    at HeaderParser.emit (node:events:378:20)\n' +
+    '    at HeaderParser._finish (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\dicer\\lib\\HeaderParser.js:68:8)\n' +
+    '    at SBMH.<anonymous> (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\dicer\\lib\\HeaderParser.js:40:12)\n' +
+    '    at SBMH.emit (node:events:378:20)\n' +
+    '    at SBMH._sbmh_feed (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\streamsearch\\lib\\sbmh.js:159:14)\n' +
+    '    at SBMH.push (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\streamsearch\\lib\\sbmh.js:56:14)\n' +
+    '    at HeaderParser.push (D:\\PROJECTS\\Parse-Excel-flie-and-get-data\\node_modules\\dicer\\lib\\HeaderParser.js:46:19)',
+  error_occured: 'Tue, Mar 2, 2021, 03:09 AM',
+  timestamp: '2021-03-01T21:09:31.607Z'
+}
