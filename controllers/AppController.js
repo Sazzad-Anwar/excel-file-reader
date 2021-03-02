@@ -9,7 +9,6 @@ const htmlDoc = require('html-docx-js');
 const home = asyncHandler(async(req,res)=>{
     
     const file = req.file;
-    
     if(file){
         let directory = path.join(__dirname, '../public/uploads/', `upload.xlsx`);
         readXlsxFile(directory).then((rows) => {
@@ -18,7 +17,7 @@ const home = asyncHandler(async(req,res)=>{
             const table = (tableFormation.split(',')).join('');
 
             const docx = htmlDoc.asBlob(table);
-            fs.writeFile(path.join(__dirname, '../public/uploads/', `table.docx`), docx, (err) => {
+            fs.writeFile(path.join(__dirname, '../public/uploads/', `document_file.docx`), docx, (err) => {
                 if (err) return console.log(err);
                 console.log('done');
             });
