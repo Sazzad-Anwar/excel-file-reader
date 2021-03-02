@@ -3,7 +3,7 @@ const path = require('path');
 
 //@Description: Multer storage and file checking configurations
 const checkFileType = (file,cb)=>{
-    const filetypes = 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
+    const filetypes = 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet' || 'application/octet-stream'
     const extname = (path.extname(file.originalname).toLowerCase()) === '.xlsx'?true:false;
     const mimetype = file.mimetype;
     console.log(file);
