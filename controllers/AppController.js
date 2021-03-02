@@ -8,8 +8,8 @@ const home = asyncHandler(async(req,res)=>{
     
     const file = req.file;
     
-    let directory = path.join(__dirname, '../public/uploads/', `upload.xlsx`);
     if(file){
+        let directory = path.join(__dirname, '../public/uploads/', `upload.xlsx`);
         readXlsxFile(directory).then((rows) => {
     
             let data ={
